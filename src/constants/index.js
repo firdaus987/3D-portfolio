@@ -56,11 +56,29 @@ import {
   pythoncert,
   awsball,
   az900,
+  petrokimia,
+  plnicon,
+  alfath,
+  bnsp,
+  dicoding,
+  kominfo,
+  cerBnsp,
+  cerManpro,
+  cerPython,
+  cerScience,
+  cerSql,
+  cerVsga,
+  damkar,
+  mapspotensial,
+  metative,
+  psikoline,
+  sellerin,
+  vangkringan,
   microsoft
 
 } from "../assets";
 
-export const about = "I'm a passionate individual learning and working with new technologies. I love solving real-world problems and learning along the way. I have currently explored the field of Devops, Cloud Computing, Frontend and Backend tools and technologies"
+export const about = "I am a fresh graduate from Applied Bachelor of Informatics Engineering. I have strong interest and experience as a Fullstack Developer"
 
 export const navLinks = [
   {
@@ -69,7 +87,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -79,266 +97,230 @@ export const navLinks = [
 
 const services = [
   {
-    title: "DevOps",
+    title: "Web Developer",
     icon: web,
   },
   {
-    title: "Frontend",
+    title: "Desktop Developer",
     icon: mobile,
   },
   {
-    title: "Backend",
+    title: "AI & IoT",
     icon: backend,
-  },
-  {
-    title: "Cloud Computing",
-    icon: creator,
   },
 ];
 
 const technologies = [
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
-  // {
-  //   name: "JavaScript",
-  //   icon: javascript,
-  // },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
   {
     name: "React JS",
     icon: reactjs,
   },
-  // {
-    //   name: "Tailwind CSS",
-    //   icon: tailwind,
-  // },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "linux",
-    icon: linux,
-  },
-  {
     name: "docker",
     icon: docker,
   },
-  // {
-  //   name: "kubernetes",
-  //   icon: kubernetes,
-  // },
-  // {
-  //   name: "bootstrap",
-  //   icon: bootstrap,
-  // },
   {
-    name: "nginx",
-    icon: nginx,
-  },
-  // {
-  //   name: "apache",
-  //   icon: apache,
-  // },
-  // {
-  //   name: "githubactions",
-  //   icon: githubactions,
-  // },
-  // {
-    //   name: "jenkins",
-    //   icon: jenkins,
-    // },
-  // {
-  //   name: "mysql",
-  //   icon: mysql,
-  // },
-  // {
-    //   name: "sqlite",
-  //   icon: sqlite,
-  // },
-  {
-    name: "firebase",
-    icon: firebase,
+    name: "mysql",
+    icon: mysql,
   },
   {
     name: "python",
     icon: python,
   },
   {
-    name: "flask",
-    icon: flask,
-  },
-  // {
-  //   name: "fastapi",
-  //   icon: fastapi,
-  // },
-  {
-    name: "django",
-    icon: django,
-  },
-  {
     name: "postgresql",
     icon: postgresql,
   },
-  // {
-    //   name: "postman",
-    //   icon: postman,
-    // },
-  // {
-  //   name: "c",
-  //   icon: c,
-  // },
-  // {
-  //   name: "cpp",
-  //   icon: cpp,
-  // },
+
   {
-    name: "bash",
-    icon: bash,
+    name: "typescript",
+    icon: typescript,
+  },
+
+  {
+    name: "c",
+    icon: c,
   },
   {
-    name: "aws",
-    icon: awsball,
+    name: "figma",
+    icon: figma,
   },
   {
-    name: "gcp",
-    icon: gcp,
+    name: "meta",
+    icon: meta,
   },
-  // {
-  //   name: "heroku",
-  //   icon: heroku,
-  // },
 ];
 
 const experiences = [
   {
-    title: "Frontend Developer Intern",
-    company_name: "Tekion",
-    icon: tekion,
-    iconBg: "#00bfa4",
-    date: "Dec 2022 - Jan 2023",
+    title: "Manajemen Produk Baru",
+    company_name: "PT Petrokimia Gresik",
+    icon: petrokimia,
+    iconBg: "#FFF",
+    date: "Oct 2025 - Present",
     points: [
-      "Built a strong foundation on the fundamentals of HTML, CSS & JavaScript",
-      "Improved on efficient methods of developing a web application",
-      "Insights on industry Standards for web development"
+      "Conducted market surveys for new product development",
+      "Analyzed market potential and product promotion",
+      "Developed market potential data applications",
+
     ],
   },
   {
-    title: "Software Developer Intern",
-    company_name: "CloudTel Solutions",
-    icon: cloudtel,
+    title: "Internship",
+    company_name: "PLN Icon Plus",
+    icon: plnicon,
     iconBg: "#FFF",
-    date: "July 2022 - August 2022",
+    date: "Aug 2024 - Dec 2024",
     points: [
-      "Worked with AWS Services such as Amazon EC2, S3, VPC, IAM, ECR ...",
-      "Interacted with AWS Services using the AWS CLI and the Python SDK (Boto3)",
-      "Created shell Scripts to bootstrap a server and then create an AMI",
-      "Adopted exclusively to Linux OS (Ubuntu) for day-to-day tasks",
-      "Deployed application on containers to production",
-      "Configured webservers to serve static files and installed SSL certificates for the domain"
+      "Operation and maintenance of company assets",
+      "Developed applications to support operational activities",
+      "Built digital solutions for internal divisions",
+    ],
+  },
+    {
+    title: "Internship",
+    company_name: "PT Alfath Corp",
+    icon: alfath,
+    iconBg: "#FFF",
+    date: "Feb 2024 - Jul 2024",
+    points: [
+      "Developed applications based on client requirements",
+      "Maintained and enhanced client applications",
+      "Built internal operational systems",
+
     ],
   }
 ];
 
 const certifications = [
   {
-    name:
-      "AWS Certified Cloud Practitioner",
-    image: awsccp,
-    icon: aws,
-    url: 'https://www.credly.com/badges/57074209-7830-4367-9921-62928eb57aeb/public_url'
+    name: "Web Developer – BNSP",
+    image: cerBnsp,
+    icon: bnsp,
+    url: "https://s.id/sertifbnsp_afizi2025",
   },
   {
-    name:
-      "Google Cloud Digital Leader",
-    image: gcpdg,
-    icon: gcp,
-    url: 'https://www.credential.net/b6adac8a-184c-4743-88ca-c5537628fcec?key=005f755bbbbabc1448a3463fd43634cc20af978e8e53952d2f17cf1ba9237d47&record_view=true'
+    name: "Junior Web Developer – VSGA BPSDM",
+    image: cerVsga,
+    icon: kominfo,
+    url: "https://s.id/sertifvsga2024_afizi",
   },
   {
-    name:
-    "Microsoft Azure Fundamentals",
-    image: az900,
-    icon: microsoft,
-    url: 'https://www.credly.com/badges/ad668692-9764-4853-903d-f046266c1c15/public_url'
+    name: "Python Programming - Dicoding",
+    image: cerPython,
+    icon: dicoding,
+    url: "https://drive.google.com/file/d/1UdbyOvdfVpMnN3clKCEqBDpmsroZMkAj/view?usp=sharing",
   },
-  // {
-  //   name:
-  //     "Python Basics",
-  //   image: pythoncert,
-  //   icon: hackerrank,
-  //   url: 'https://www.hackerrank.com/certificates/635cc0313ed6'
-  // },
+  {
+    name: "Data Science - Dicoding",
+    image: cerScience,
+    icon: dicoding,
+    url: "https://drive.google.com/file/d/11xLl4CY16FPC3bb_K3pO67ua7X8eesDJ/view?usp=sharing",
+  },
+    {
+    name: "Projek Management - Dicoding",
+    image: cerManpro,
+    icon: dicoding,
+    url: "https://drive.google.com/file/d/1-Zw6XRuZVAJ69jiYaKXIz2VTttHpVLIq/view?usp=sharing",
+  },
+    {
+    name: "Structured Query Language (SQL) - Dicoding",
+    image: cerSql,
+    icon: dicoding,
+    url: "https://drive.google.com/file/d/1OUtjylbv4VM8kAAnCrk2ZA25XYYPnsk7/view?usp=sharing",
+  },
 ];
 
 const projects = [
   {
-    name: "Buy N Sell",
+    name: "e-damkar",
     description:
-      "An e-commerce website that allows users to buy and sell used products. This application was hosted on AWS with the help of containers ",
+      "A website used by firefighters to manage public reports related to monitoring and evaluation (M&E) of fire department activities.",
     tags: [
-      {
-        name: "devops",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "django",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "laravel", color: "blue-text-gradient" },
+      { name: "php", color: "green-text-gradient" },
+      { name: "mysql", color: "pink-text-gradient" },
     ],
-    image: buyNsell,
-    source_code_link: "https://github.com/masif2002/buyNsell-django-app",
+    image: damkar,
+    source_code_link: "https://www.linkedin.com/in/ahmad-firdaus-tarmidzi-503629221/details/projects/",
   },
   {
-    name: "Admin Dashboard",
+    name: "1petapasar",
     description:
-      "A dashboard application for an organization that allows to view the list of employees and their details",
+      "A website that designed to map and analyze market potential, helping users identify strategic business locations based on demographic data.",
     tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwind", color: "green-text-gradient" },
+      { name: "bun", color: "pink-text-gradient" },
+      { name: "postgresql", color: "blue-text-gradient" },
     ],
-    image: admindashboard,
-    source_code_link: "https://github.com/masif2002/admin-dashboard",
+    image: mapspotensial,
+    source_code_link: "https://www.linkedin.com/in/ahmad-firdaus-tarmidzi-503629221/details/projects/",
   },
   {
-    name: "Votify",
+    name: "AMetativeHLE",
     description:
-      "A simple social media application that allows users to vote for photos posted by other users on the platform",
+      "An educational web application built to measure and improve metacognitive skills, featuring personalized learning assessments and cognitive performance tracking.",
     tags: [
-      {
-        name: "fastapi",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "postgresql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "heroku",
-        color: "pink-text-gradient",
-      },
+      { name: "laravel", color: "blue-text-gradient" },
+      { name: "php", color: "green-text-gradient" },
+      { name: "mysql", color: "pink-text-gradient" },
     ],
-    image: votify,
-    source_code_link: "https://github.com/masif2002/fastapi",  
+    image: metative,
+    source_code_link: "https://www.linkedin.com/in/ahmad-firdaus-tarmidzi-503629221/details/projects/",
+  },
+  {
+    name: "Psikoline",
+    description:
+      "An integrated psychological testing platform that simplifies the recruitment process with automated online assessments and real-time result generation.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwind", color: "green-text-gradient" },
+      { name: "mysql", color: "pink-text-gradient" },
+    ],
+    image: psikoline,
+    source_code_link: "https://www.linkedin.com/in/ahmad-firdaus-tarmidzi-503629221/details/projects/",
+  },
+  {
+    name: "Seller.in",
+    description:
+      "A comprehensive management system for resellers to streamline inventory control, sales tracking, and communication between distributors and sellers.",
+    tags: [
+      { name: "laravel", color: "blue-text-gradient" },
+      { name: "php", color: "green-text-gradient" },
+      { name: "mysql", color: "pink-text-gradient" },
+    ],
+    image: sellerin,
+    source_code_link: "https://www.linkedin.com/in/ahmad-firdaus-tarmidzi-503629221/details/projects/",
+  },
+  {
+    name: "VAngkringan",
+    description:
+      "A digital point-of-sale (POS) and inventory management system specifically designed to digitize traditional Angkringan business operations and daily reporting.",
+    tags: [
+      { name: "html", color: "blue-text-gradient" },
+      { name: "bootstrap", color: "green-text-gradient" },
+      { name: "php", color: "pink-text-gradient" },
+      { name: "mysql", color: "blue-text-gradient" },
+    ],
+    image: vangkringan,
+    source_code_link: "https://www.linkedin.com/in/ahmad-firdaus-tarmidzi-503629221/details/projects/",
   },
 ];
 

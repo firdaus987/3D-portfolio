@@ -1,121 +1,97 @@
-import React, {useState, useRef} from 'react'
-import { motion } from 'framer-motion'
-import emailjs  from '@emailjs/browser'
+import React from "react";
+import { motion } from "framer-motion";
 
-import { styles } from '../styles'
-import { EarthCanvas } from './canvas'
-import { SectionWrapper } from '../hoc'
-import { slideIn } from '../utils/motion'
+import { styles } from "../styles";
+import { EarthCanvas } from "./canvas";
+import { SectionWrapper } from "../hoc";
+import { slideIn } from "../utils/motion";
 
 const Contact = () => {
-  const formRef = useRef()
-  const [form, setForm] = useState({
-    name: '',
-    email: '',
-    message: ''
-  })
-  const [loading, setLoading] = useState(false)
-
-  const handleChange = (e) => {
-    const { name, value } = e.target
-
-    
-    setForm({ ...form, [name]: value })
-
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-
-    setLoading(true)
-
-    emailjs.send(
-      'service_nhq6kus',
-      'template_jb8oylu',
-      {
-        from_name: form.name,
-        from_email: form.email,
-        to_name: 'Mohamed Asif',
-        to_email: 'asifthelazycoder@gmail.com',
-        message: form.message
-      },
-      'kqnoczsL0DVGRYiCD',
-    ).then(() => {
-
-      setLoading(false)
-      alert("Your message has been sent!")
-
-      setForm({
-        name: '',
-        email: '',
-        message: ''
-      })
-
-    }, (e) => {
-
-      setLoading(false)
-      alert("Something went wrong!")
-
-    })
-
-
-  }
-
   return (
-    <div className='xl:mt-12 xl:flex-row flex flex-col-reverse gap-10 overflow-hidden'>
+    <div className="xl:mt-12 xl:flex-row flex flex-col-reverse gap-10 overflow-hidden">
+      
+      {/* CONTACT INFO */}
       <motion.div
-        variants={slideIn('left', 'tween', 0.2, 1)}
+        variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-        <form 
-          ref={formRef}
-          onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8">
+        <div className="mt-10 flex flex-col gap-6 text-white text-[16px]">
+          
+          <div>
+            <span className="font-semibold text-secondary">Email</span>
+            <p className="mt-1">
+              <a
+                href="mailto:ahmfirdaus59@gmail.com"
+                className="hover:text-white transition"
+              >
+                ahmfirdaus59@gmail.com
+              </a>
+            </p>
+          </div>
 
-          <label className='flex flex-col'>
-            <span className="text-white font-medium mb-4">Your Name</span>
-            <input type="text" name='name' value={form.name}
-            onChange={handleChange}
-            placeholder="What's your name?"
-            className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' required />
-          </label>
+          <div>
+            <span className="font-semibold text-secondary">WhatsApp</span>
+            <p className="mt-1">
+              <a
+                href="https://wa.me/6282233814533"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition"
+              >
+                +62 822-3381-4533
+              </a>
+            </p>
+          </div>
 
-          <label className='flex flex-col'>
-            <span className="text-white font-medium mb-4">Your Email </span>
-            <input type="email" name='email' value={form.email}
-            onChange={handleChange}
-            placeholder="What's your email?"
-            className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' required />
-          </label>
+          <div>
+            <span className="font-semibold text-secondary">LinkedIn</span>
+            <p className="mt-1">
+              <a
+                href="https://www.linkedin.com/in/ahmad-firdaus-tarmidzi-503629221"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition break-all"
+              >
+                linkedin.com/in/ahmad-firdaus-tarmidzi
+              </a>
+            </p>
+          </div>
 
-          <label className='flex flex-col'>
-            <span className="text-white font-medium mb-4">Your Message</span>
-            <textarea type="text" name='message' value={form.message}
-            rows="7"
-            onChange={handleChange}
-            placeholder="What's your message?"
-            className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' required />
-          </label>
+          <div>
+            <span className="font-semibold text-secondary">Instagram</span>
+            <p className="mt-1">
+              <a
+                href="https://www.instagram.com/a.firdaus.zi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition"
+              >
+                @a.firdaus.zi
+              </a>
+            </p>
+          </div>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>
-            {loading ? 'Sending...' : 'Send'}
-          </button>
-        </form>
+          <div>
+            <span className="font-semibold text-secondary">Address</span>
+            <p className="mt-1 text-white">
+              Gresik, East Java (61119)
+            </p>
+          </div>
+        </div>
       </motion.div>
 
+      {/* EARTH CANVAS */}
       <motion.div
-        variants={slideIn('right', "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"  
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <EarthCanvas />
       </motion.div>
     </div>
-  )
-}
+  );
+};
 
-export default SectionWrapper(Contact, "contact")
+export default SectionWrapper(Contact, "contact");

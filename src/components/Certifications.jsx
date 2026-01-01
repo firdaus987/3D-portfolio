@@ -43,7 +43,7 @@ const Certifications = () => {
         </motion.div>
       </div>
 
-      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap lg:flex-nowrap gap-7 justify-center`}>
+      <div className={`${styles.paddingX} -mt-20 pb-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 justify-items-center`}>
         {certifications.map((certification, index) => (
           <Card 
             key={certification.name}

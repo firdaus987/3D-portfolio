@@ -76,6 +76,26 @@ import awsccp from './cert/aws-ccp.png'
 import gcpdg from './cert//GCP-Cert.png'
 import pythoncert from './cert/python-basic.png'
 import az900 from './cert/az900.png'
+import cerBnsp from "./cert/cer-bnsp.jpg";
+import cerManpro from "./cert/cer-manpro.jpg";
+import cerPython from "./cert/cer-pyton.jpg";
+import cerScience from "./cert/cer-science.jpg";
+import cerSql from "./cert/cer-sql.jpg";
+import cerVsga from "./cert/cer-vsga.jpg";
+
+import petrokimia from "./company/petrokimia.svg";
+import plnicon from "./company/pln-icon.png";
+import alfath from "./company/alfath.png";
+import dicoding from "./company/dicoding.png";
+import kominfo from "./company/kominfo.png";
+import bnsp from "./company/bnsp.png";
+
+import damkar from "./project/damkar.png";
+import mapspotensial from "./project/mapspotensial.png";
+import metative from "./project/metative.png";
+import psikoline from "./project/psikoline.png";
+import sellerin from "./project/sellerin.png";
+import vangkringan from "./project/vangkringan.png";
 
 
 export {
@@ -145,5 +165,23 @@ export {
   githubs,
   awsball,
   az900,
+  petrokimia,
+  plnicon,
+  alfath,
+  bnsp,
+  dicoding,
+  kominfo,
+  cerBnsp,
+  cerManpro,
+  cerPython,
+  cerScience,
+  cerSql,
+  cerVsga,
+  damkar,
+  mapspotensial,
+  metative,
+  psikoline,
+  sellerin,
+  vangkringan,
   microsoft
 };

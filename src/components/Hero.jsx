@@ -16,7 +16,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915eff]'>Asif</span>
+            Hi, I'm <span className='text-[#915eff]'>Tarmidzi</span>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
               I love to explore and experiment <br className='sm:block hidden'/> with new technologies 
             </p>
@@ -26,11 +26,8 @@ const Hero = () => {
       </div>
 
       <div className="absolute top-[320px] justify-center w-full sm:hidden flex gap-8">
-          <a href="https://www.linkedin.com/in/masif2002/">
+          <a href="https://www.linkedin.com/in/ahmad-firdaus-tarmidzi-503629221/">
             <img src={linkedin} alt="linkedin" className='h-10 w-10'/>
-          </a>
-          <a href="https://github.com/masif2002">
-            <img src={githubs} alt="linkedin" className='h-10 w-10'/>
           </a>
         </div>
       
