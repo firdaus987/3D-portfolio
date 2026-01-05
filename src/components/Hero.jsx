@@ -18,7 +18,24 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915eff]'>Tarmidzi</span>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              I love to explore and experiment <br className='sm:block hidden'/> with new technologies 
+              I love to explore and experiment <br className='sm:block hidden' />
+            <a
+              href="/cv/CV-Ahmad-Firdaus-Tarmidzi.pdf"
+              download
+              className="inline-flex items-center gap-1 text-[#4f8cff] hover:underline hover:text-white transition"
+            >
+              Download my CV
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-4 h-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M14 3h7m0 0v7m0-7L10 14" />
+              </svg>
+            </a>
             </p>
           </h1>
         </div>
