@@ -32,6 +32,7 @@ import {
   githubactions,
   jenkins,
   bootstrap,
+  java,
   mysql,
   postgresql,
   sqlite,
@@ -74,6 +75,10 @@ import {
   psikoline,
   sellerin,
   vangkringan,
+  bredo,
+  nabila,
+  quran,
+  simapos,
   microsoft
 
 } from "../assets";
@@ -158,18 +163,18 @@ const technologies = [
     icon: c,
   },
   {
+    name: "java",
+    icon: java,
+  },
+    {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "meta",
-    icon: meta,
   },
 ];
 
 const experiences = [
   {
-    title: "Manajemen Produk Baru",
+    title: "Departemen Manajemen Produk Baru",
     company_name: "PT Petrokimia Gresik",
     icon: petrokimia,
     iconBg: "#FFF",
@@ -178,11 +183,10 @@ const experiences = [
       "Conducted market surveys for new product development",
       "Analyzed market potential and product promotion",
       "Developed market potential data applications",
-
     ],
   },
-  {
-    title: "Internship",
+  { 
+    title: "Divisi Operasi Pemeliharaan dan Aset",
     company_name: "PLN Icon Plus",
     icon: plnicon,
     iconBg: "#FFF",
@@ -194,7 +198,7 @@ const experiences = [
     ],
   },
     {
-    title: "Internship",
+    title: "Divisi IT",
     company_name: "PT Alfath Corp",
     icon: alfath,
     iconBg: "#FFF",

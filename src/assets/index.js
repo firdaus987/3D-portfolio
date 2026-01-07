@@ -33,6 +33,7 @@ import nginx from "./tech/nginx.webp";
 import apache from "./tech/apache.png";
 import githubactions from "./tech/githubactions.png";
 import jenkins from "./tech/jenkins.png";
+import java from "./tech/java.png";
 
 import mysql from "./tech/mysql.png";
 import postgresql from "./tech/postgresql.png";
@@ -96,6 +97,10 @@ import metative from "./project/metative.png";
 import psikoline from "./project/psikoline.png";
 import sellerin from "./project/sellerin.png";
 import vangkringan from "./project/vangkringan.png";
+import bredo from "./project/bredo.png";
+import nabila from "./project/nabila.png";
+import quran from "./project/quran.png";
+import simapos from "./project/simapos.png";
 
 
 export {
@@ -121,6 +126,7 @@ export {
   typescript,
   threejs,
   linux,
+  java,
   kubernetes,
   meta,
   shopify,
@@ -183,5 +189,9 @@ export {
   psikoline,
   sellerin,
   vangkringan,
+  bredo,
+  nabila,
+  quran,
+  simapos,
   microsoft
 };

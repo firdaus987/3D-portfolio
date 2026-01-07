@@ -55,7 +55,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="hover:text-white transition break-all"
               >
-                linkedin.com/in/ahmad-firdaus-tarmidzi
+                linkedin.com/in/ahmad-firdaus-tarmidzi-503629221
               </a>
             </p>
           </div>
