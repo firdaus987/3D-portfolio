@@ -79,6 +79,8 @@ import {
   nabila,
   quran,
   simapos,
+  polije,
+  man4,
   microsoft
 
 } from "../assets";
@@ -212,6 +214,30 @@ const experiences = [
   }
 ];
 
+const educations = [
+  {
+    school: "State Polytechnic of Jember",
+    icon: polije,
+    degree: "Applied Bachelor's Degree in Information Technology",
+    date: "Aug 2021 - Aug 2025",
+    score: "IPK: 3.75/4.00",
+    activities: [
+      "Student Executive Board – Hastabrata Cabinet (2021–2022)",
+      "Student Executive Board – Saturasi Cabinet (2022–2023)",
+    ],
+  },
+  {
+    school: "MAN 4 Banyuwangi",
+    icon: man4,
+    degree: "Senior High School, Mathematics and Science",
+    date: "Jun 2018 - Jun 2021",
+    score: "Averrage: 87/100",
+    activities: [
+       "Student Council Organization (2018–2020)",
+    ],
+  },
+];
+
 const certifications = [
   {
     name: "Web Developer – BNSP",
@@ -328,4 +354,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, certifications, projects };
+export { services, technologies, experiences, educations, certifications, projects };

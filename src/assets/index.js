@@ -90,6 +90,8 @@ import alfath from "./company/alfath.png";
 import dicoding from "./company/dicoding.png";
 import kominfo from "./company/kominfo.png";
 import bnsp from "./company/bnsp.png";
+import polije from "./company/polije.png";
+import man4 from "./company/man4.png";
 
 import damkar from "./project/damkar.png";
 import mapspotensial from "./project/mapspotensial.png";
@@ -177,6 +179,8 @@ export {
   bnsp,
   dicoding,
   kominfo,
+  polije,
+  man4,
   cerBnsp,
   cerManpro,
   cerPython,
