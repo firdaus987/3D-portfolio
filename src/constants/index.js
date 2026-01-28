@@ -216,7 +216,7 @@ const experiences = [
 
 const educations = [
   {
-    school: "State Polytechnic of Jember",
+    school: "Jember State Polytechnic",
     icon: polije,
     degree: "Applied Bachelor's Degree in Information Technology",
     date: "Aug 2021 - Aug 2025",
