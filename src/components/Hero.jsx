@@ -28,7 +28,7 @@ const Hero = () => {
 
             {/* DOWNLOAD CV */}
             <a
-              href="/cv/CV-Ahmad-Firdaus-Tarmidzi.pdf"
+              href="https://drive.google.com/drive/folders/1y_WrYjtHTEm0pn2IaZ38EpCGtMavmiOa?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 text-[#4f8cff] hover:underline hover:text-white transition cursor-pointer mt-2"
